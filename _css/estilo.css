@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    max-width: 100vw;
+    margin: 8px;
+    font: normal 0.75em Calibri, Verdana, Arial;
+    
+    
+ 
+    
+}
+/* Cabeçalho */
+
+#barra-superior{
+    display: flex;
+    height: 36px;
+    justify-content: space-between;
+    background-image: url(../_imagens/governo-superior-02.png);
+    border-radius: 30px 30px 0 0;
+        
+}
+
+#barra-superior .esquerda{
+    height: 36px;
+    width: 274px;
+    background-image: url('../_imagens/governo-superior-01.png' );
+    background-repeat: no-repeat;
+    
+}
+
+
+#barra-superior .direita{
+    height: 36px;
+    width: 492px;
+    background-image: url('../_imagens/governo-superior-03.png');
+}
+
+.barra-laranja {
+    background-image: url('../_imagens/governo-barra.png');
+    height: 13px;
+}
+.barraSistemaSup{
+    display: flex;
+    justify-content: space-between;
+    background-color: #006837;
+}
+
+.sigla{
+    font-size: 2.8em;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.barraSistemaInf {
+    background-color: #006837;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao, .versao {
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin: 0 10px;
+}
+
+
+.barra-menu {
+    width: 100%;
+    background: #064060;
+    height: 1.7em;
+    border-top: 1px solid #fff;
+}
+
+/* Conteudo */
+
+.barra-acesso {
+    background-image: url('../_imagens/bread-background.png');
+    background-position: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border: solid 1px #cecece;
+             
+}
+
+.acesso {
+    color: #9b9b9b;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font: bolder 1.2em Calibri, Verdana, Arial;
+    text-shadow: 1px 1px 1px white;
+}
+
+fieldset {
+    margin: 40px 0px;
+    padding: 10px 20px 40px 20px;
+    
+}
+
+#botao-entrar {
+    padding: 0px 20px;
+    color: #FFF;
+    background-color: #AAA;
+    width: 85px;
+    border: 0;
+}
+
+section{
+    display: flex;
+    gap: 20px;
+    color: #999;
+}
+
+#login, #senha {
+    text-indent: 5px;
+    height: 25px;
+    font-size: 12px;
+    width: 400px;
+    background-image: linear-gradient(to top, rgb(255, 255, 255),rgb(245, 245, 245));
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.principal-user, .principal-senha {
+    max-width: 400px;
+
+}  
+
+
+#login:hover, #senha:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+#login:focus, #senha:focus {
+    background-color: rgb(245, 245, 245);
+}
+
+/* Rodapé */
+
+.barra-azul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #064060;
+    
+   
+}
+.barra-inferior {
+    background-image: url('../_imagens/datasus-logo2015.png');
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+}
+.descricao-inferior{
+    margin: 0 10px;
+    color: white;
+    white-space: nowrap;
+}

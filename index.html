@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./_imagens/icon_chagas.png">
+    <link rel="stylesheet" href="./_css/estilo.css">
+    <link rel="stylesheet" media="screen and (max-width: 880px)" href="./_css/responsivo.css">
+    <title>Programa de Controle de Chagas</title>
+</head>
+<body>
+
+    <!--CABEÇALHO-->
+
+    <header id="cabecalho-principal">
+        <div id="barra-superior">
+            <div class="esquerda"></div>
+            <div class="direita"></div>
+        </div>
+        <div class="barra-laranja"></div>
+        <div class="barraSistemaSup">
+            <span class="sigla">PCDCH</span>
+            <div class="menu-rapido"></div>
+        </div>
+        <div class="barraSistemaInf">
+            <span class="descricao">Programa de Controle de Chagas</span>
+            <div class="detalhe-Usuario"><span class="versao"><strong>Versão 2022</strong></span></div>
+        </div>
+        <div class="barra-menu"></div>
+
+    </header>
+
+        <!--CONTEUDO-->
+
+    <main>
+        
+        <div class="barra-acesso"><span class="acesso">Acesso ao Sistema</span></div>
+        <form method="post" action="">
+        
+        <fieldset>
+            <legend>Acesso a usuários</legend>
+            <section>
+             <div class="principal-user">
+               <label for="login">Usuario:</label><br>
+               <input type="text" name="login" id="login" size="30" maxlength="50">
+            </div>
+
+            <div class="principal-senha">
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha" size="30" maxlength="10">
+            </div>
+            </section>
+            <br>
+            <br>
+            <input id="botao-entrar" type="submit" value="Entrar" onclick="entrar()">
+        
+        </fieldset>
+        
+        </form>
+    </main>
+
+    <!--RODAPE-->
+
+    <footer id="rodape">
+        <div class="barra-laranja"></div>
+        <div class="barra-azul">
+            <span class="descricao-inferior">Secretaria de Vigilância em Saúde<br>Coordenação do Programa Nacional de Controle da Dengue</span>
+            <div class="barra-inferior"></div>
+        </div>
+    </footer>
+    <script>
+       let login = document.getElementById('login')
+       login.focus()
+       let senha = document.getElementById('senha')
+      
+       function entrar(){
+           if(login.value.length == 0 && senha.value.length == 0){
+              window.alert('[ERRO] Por favor preencher os dados')
+           }
+       }
+
+    </script>
+    
+</body>
+</html>

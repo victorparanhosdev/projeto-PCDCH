@@ -1,0 +1,59 @@
+#login, #senha {
+    width: 100%
+  }  
+
+  .principal-user, .principal-senha {
+      width: 100%;
+   
+   }  
+
+
+
+@media (max-width: 789px){
+
+section {
+    display: block;
+}
+
+#barra-superior .direita{
+    width: 100%;
+    max-width: 492px;
+    
+    background-repeat: no-repeat;
+    background-image: url(../_imagens/governo-superior-02.png);
+    border-radius: 30px 30px 0 0;
+    
+}
+#barra-superior .esquerda{
+    position: absolute;
+        
+}
+
+}
+
+@media (max-width: 656px){
+    .barra-azul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .descricao-inferior{
+    margin-top: 10px;
+    
+    }
+}
+
+@media (max-width: 480px) {
+   
+}
+@media (max-width: 412px){
+    .descricao-inferior{
+        font-size: 0.6rem;
+       
+    }
+    .barra-inferior {
+        width: 100%;
+    }
+
+}
