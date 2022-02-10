@@ -20,7 +20,7 @@ body {
     display: flex;
     height: 36px;
     justify-content: space-between;
-    background-image: url(../_imagens/governo-superior-02.png);
+    background-image: url('../imagens/governo-superior-02.png');
     border-radius: 30px 30px 0 0;
         
 }
@@ -28,7 +28,7 @@ body {
 #barra-superior .esquerda{
     height: 36px;
     width: 274px;
-    background-image: url('../_imagens/governo-superior-01.png' );
+    background-image: url('../imagens/governo-superior-01.png' );
     background-repeat: no-repeat;
     
 }
@@ -37,11 +37,11 @@ body {
 #barra-superior .direita{
     height: 36px;
     width: 492px;
-    background-image: url('../_imagens/governo-superior-03.png');
+    background-image: url('../imagens/governo-superior-03.png');
 }
 
 .barra-laranja {
-    background-image: url('../_imagens/governo-barra.png');
+    background-image: url('../imagens/governo-barra.png');
     height: 13px;
 }
 .barraSistemaSup{
@@ -83,7 +83,7 @@ body {
 /* Conteudo */
 
 .barra-acesso {
-    background-image: url('../_imagens/bread-background.png');
+    background-image: url('../imagens/bread-background.png');
     background-position: center;
     height: 30px;
     display: flex;
@@ -155,7 +155,7 @@ section{
    
 }
 .barra-inferior {
-    background-image: url('../_imagens/datasus-logo2015.png');
+    background-image: url('../imagens/datasus-logo2015.png');
     background-repeat: no-repeat;
     width: 330px;
     height: 50px;
